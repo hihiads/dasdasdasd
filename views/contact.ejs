@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kontaktiraj nas</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <h1>Kontaktiraj SD Support</h1>
+  
+  <form action="/contact" method="POST">
+    <label for="name">Ime:</label><br>
+    <input type="text" id="name" name="name" required><br><br>
+    
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="message">Poruka:</label><br>
+    <textarea id="message" name="message" rows="5" required></textarea><br><br>
+    
+    <button type="submit">Pošalji poruku</button>
+  </form>
+
+  <p><a href="/">Povratak na početnu</a></p>
+</body>
+</html>
